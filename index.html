@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudip | Personal Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --surface-color: #f8fafc;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --accent-color: #2563eb;
+      --border-color: #e2e8f0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+    body { background-color: var(--bg-color); color: var(--text-primary); line-height: 1.6; padding: 1.5rem; max-width: 800px; margin: 0 auto; }
+    header { margin-bottom: 3rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; }
+    h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    p { color: var(--text-secondary); margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background-color: var(--accent-color); color: #fff; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-right: 0.5rem; margin-bottom: 0.5rem; }
+    .btn-secondary { background-color: var(--surface-color); color: var(--text-primary); border: 1px solid var(--border-color); }
+    section { margin-bottom: 2.5rem; }
+    h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skill-tag { background: var(--surface-color); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Sudip</h1>
+    <p>Engineering student focused on Python development and cloud infrastructure.</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>B.tech CSE (AI & ML) student with a strong interest in Artificial Intelligence, Machine Learning, and emerging technologies. Currently developing skills in C, Python, Data Science, and AI while improving my logical thinking and programming abilities. I enjoy exploring new technologies, solving problems, and turning ideas into practical solutions. My goal is to keep learning, build meaningful projects, and grow into a skilled AI professional.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">HTML & CSS</span>
+      <span class="skill-tag">Git & GitHub</span>
+      <span class="skill-tag">BigQuery</span>
+      <span class="skill-tag">C programming</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+      Have a project in mind or want to connect? Feel free to reach out.
+    </p>
+    <div>
+      <a href="mailto:sudipghosh.aiml@gmail.com" class="btn">Send Email</a>
+      <a href="https://github.com/sudipghoshaiml-cmd" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+      <a href="https://www.linkedin.com/in/sudip-ghosh-5513a443b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+    </div>
+  </section>
+
+</body>
+</html>
